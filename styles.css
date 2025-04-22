@@ -5,8 +5,10 @@
 
 body {
     background-image: url(img/wallpapersden.com_kame-house-dragon-ball-z_3032x1706.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main {
@@ -19,13 +21,12 @@ main {
 }
 
 .tarjeta {
-    border: 2px solid #b6b6b6;
+    border: 3px solid #a8a8a8;
     border-radius: 10px;
     padding: 15px;
     width: 230px;
     text-align: center;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: inline-block;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -43,4 +44,29 @@ main {
     font-weight: 600;
     font-style: normal;
     font-size: medium;
+}
+
+#tarjeta1 {
+    background-color: rgb(255, 144, 124);
+    border: 3px solid rgb(255, 38, 0);
+}
+
+#tarjeta2 {
+    background-color: rgb(255, 219, 152);
+    border: 3px solid rgb(228, 148, 0);
+}
+
+#tarjeta3 {
+    background-color: rgb(95, 190, 136);
+    border: 3px solid rgb(0, 121, 52);
+}
+
+#tarjeta4 {
+    background-color: rgb(158, 211, 255);
+    border: 3px solid rgb(0, 140, 255);
+}
+
+#tarjeta5 {
+    background-color: rgb(212, 165, 255);
+    border: 3px solid rgb(90, 0, 173);
 }

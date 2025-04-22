@@ -49,6 +49,9 @@ main {
 #tarjeta1 {
     background-color: rgb(255, 144, 124);
     border: 3px solid rgb(255, 38, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #tarjeta2 {

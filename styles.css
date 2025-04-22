@@ -3,37 +3,44 @@
     padding: 0;
 }
 
+/* Punto 11: Define una fuente personalizada usando Google Fonts (en este caso, "MiFuente" es una fuente local). */
 @font-face {
     font-family: "MiFuente";
     src: url(fonts/Saiyan-Sans.ttf);
 }
 
+/* Punto 4: Usa la propiedad background para agregar una imagen de fondo. */
+/* Punto 5: Establece la posición del fondo con background-position. */
+/* Punto 6: Ajusta el tamaño de un fondo con background-size. */
+/* Punto 7: Explora el efecto de desplazamiento con background-attachment al fondo de la galería. */
 body {
-    background-image: url(img/wallpapersden.com_kame-house-dragon-ball-z_3032x1706.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(img/wallpapersden.com_kame-house-dragon-ball-z_3032x1706.jpg); /* Punto 4 */
+    background-position: center; /* Punto 5 */
+    background-size: cover; /* Punto 6 */
+    background-attachment: fixed; /* Punto 7 */
     height: auto;
 }
 
+/* Punto 3: Aplica un color de fondo rgba transparente a la galería. */
 main {
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 99.2vw;
-    height: 670vh;
+    background-color: rgba(0, 0, 0, 0.4); /* Punto 3 */
+    width: 99.2vw; /* Punto 16: Usa unidades vw para definir el ancho. */
+    height: 670vh; /* Punto 16: Usa unidades vh para definir la altura. */
     margin: auto;
 }
 
+/* Punto 10: Aplica estilos de texto (text-transform, letter-spacing, text-shadow) a una card. */
 .titulo {
-    font-family: "MiFuente", sans-serif;
+    font-family: "MiFuente", sans-serif; /* Punto 11: Fuente personalizada. */
     text-align: center;
-    font-size: 6rem;
-    font-style: italic;
-    letter-spacing: 10px;
-    color:rgba(0, 0, 0, 0.8);
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 6rem; /* Punto 13: Experimenta con unidades rem. */
+    font-style: italic; /* Punto 12: Cambia el estilo de fuente. */
+    letter-spacing: 10px; /* Punto 10 */
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase; /* Punto 10 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Punto 10 */
     background-color: #f8f8f8;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Punto 14: Usa em para definir márgenes. */
 }
 
 .tarjetas {
@@ -41,64 +48,76 @@ main {
     margin: auto;
 }
 
+/* Puntos 1, 2, 8, 9, 10, 12, 13, 14, 15, 17, 18: Estilos aplicados a las cards. */
 .tarjeta {
-    border: 3px solid #a8a8a8;
+    border: 3px solid #a8a8a8; /* Punto 1: Aplica colores hexadecimales. */
     border-radius: 10px;
     width: 230px;
     text-align: center;
     background-color: #f9f9f9;
     display: inline-block;
-    padding: 1em;
-    margin: 0.9em;
+    padding: 1em; /* Punto 14: Usa em para definir paddings. */
+    margin: 0.9em; /* Punto 14: Usa em para definir márgenes. */
 }
 
+/* Punto 17: Inserta una imagen y aplica redimensionamiento con max-width y height: auto. */
+/* Punto 18: Usa object-fit para manipular el contenido visual de imágenes en las cards. */
 .tarjeta img {
-    object-fit: contain;
-    max-width: 100%;
-    height: 350px;
+    object-fit: contain; /* Punto 18 */
+    max-width: 100%; /* Punto 17 */
+    height: 350px; /* Punto 17 */
 }
 
+/* Punto 11: Define una fuente de Google Fonts y cambia el tamaño y estilo de fuente. */
 .tarjeta h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif; /* Punto 11: Fuente de Google Fonts. */
+    font-weight: 600; /* Punto 12: Cambia el peso de la fuente. */
+    font-style: normal; /* Punto 12: Cambia el estilo de la fuente. */
+    font-size: 1.1rem; /* Punto 13: Experimenta con unidades rem. */
 }
 
+/* Punto 2: Modifica 5 componentes (card) y usa una combinación RGB por cada card. */
+/* Punto 15: Compara el comportamiento entre px, em y rem en un mismo contenedor. */
 #tarjeta1 {
-    background-color: rgb(255, 144, 124);
-    border-color: rgb(255, 38, 0);
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    text-shadow: 0.2rem 0.2rem 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 144, 124); /* Punto 2 */
+    border-color: rgb(255, 38, 0); /* Punto 2 */
+    text-transform: uppercase; /* Punto 10 */
+    letter-spacing: 0.3em; /* Punto 10 */
+    text-shadow: 0.2rem 0.2rem 5px rgba(0, 0, 0, 0.5); /* Punto 10 */
+    /* Punto 15: Comparación de medidas:
+    - px: Unidades fijas, no escalan con el tamaño de fuente del navegador.
+    - em(17px): Relativo al tamaño de fuente del elemento padre (ejemplo: margin: 0.9em).
+    - rem(10px): Relativo al tamaño de fuente del elemento raíz (html) (ejemplo: font-size: 6rem). */
 }
 
 #tarjeta2 {
-    background-color: rgb(255, 219, 152);
-    border-color: rgb(228, 148, 0);
+    background-color: rgb(255, 219, 152); /* Punto 2 */
+    border-color: rgb(228, 148, 0); /* Punto 2 */
 }
 
 #tarjeta3 {
-    background-color: rgb(95, 190, 136);
-    border-color: rgb(0, 121, 52);
+    background-color: rgb(95, 190, 136); /* Punto 2 */
+    border-color: rgb(0, 121, 52); /* Punto 2 */
 }
 
 #tarjeta4 {
-    background-color: rgb(158, 211, 255);
-    border-color: rgb(0, 140, 255);
+    background-color: rgb(158, 211, 255); /* Punto 2 */
+    border-color: rgb(0, 140, 255); /* Punto 2 */
 }
 
 #tarjeta5 {
-    background-color: rgb(212, 165, 255);
-    border-color:rgb(90, 0, 173);
+    background-color: rgb(212, 165, 255); /* Punto 2 */
+    border-color: rgb(90, 0, 173); /* Punto 2 */
 }
 
+/* Punto 8: Diseña un gradiente lineal con colores de tu elección a una card. */
 #tarjeta6 {
-    background: linear-gradient(135deg, rgb(255, 131, 109), rgb(255, 212, 131));
-    border-color: rgb(196, 52, 27);
+    background: linear-gradient(135deg, rgb(255, 131, 109), rgb(255, 212, 131)); /* Punto 8 */
+    border-color: rgb(196, 52, 27); /* Punto 2 */
 }
 
+/* Punto 9: Crea un gradiente radial y aplícalo a una card. */
 #tarjeta7 {
-    background: radial-gradient(circle, rgb(207, 110, 255), rgb(147, 206, 255));
-    border-color: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(207, 110, 255), rgb(147, 206, 255)); /* Punto 9 */
+    border-color: rgb(0, 0, 0); /* Punto 2 */
 }

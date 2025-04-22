@@ -13,7 +13,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+    height: auto;
 }
 
 main {
@@ -69,8 +69,8 @@ main {
     background-color: rgb(255, 144, 124);
     border-color: rgb(255, 38, 0);
     text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.3em;
+    text-shadow: 0.2rem 0.2rem 5px rgba(0, 0, 0, 0.5);
 }
 
 #tarjeta2 {

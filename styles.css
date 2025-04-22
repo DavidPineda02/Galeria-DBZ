@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "MiFuente";
+    src: url(fonts/Saiyan-Sans.ttf);
+}
+
 body {
     background-image: url(img/wallpapersden.com_kame-house-dragon-ball-z_3032x1706.jpg);
     background-position: center;
@@ -13,6 +18,19 @@ body {
 
 main {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.titulo {
+    font-family: "MiFuente", sans-serif;
+    text-align: center;
+    font-size: 8rem;
+    font-style: italic;
+    letter-spacing: 10px;
+    color:rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f8f8f8;
+    margin-bottom: 2rem;
 }
 
 .tarjetas {

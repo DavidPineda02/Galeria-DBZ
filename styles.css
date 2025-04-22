@@ -78,3 +78,8 @@ main {
     background: linear-gradient(135deg, rgb(255, 131, 109), rgb(255, 212, 131));
     border-color: rgb(196, 52, 27);
 }
+
+#tarjeta7 {
+    background: radial-gradient(circle, rgb(207, 110, 255), rgb(147, 206, 255));
+    border-color: rgb(0, 0, 0);
+}

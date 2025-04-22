@@ -48,7 +48,7 @@ main {
 
 #tarjeta1 {
     background-color: rgb(255, 144, 124);
-    border: 3px solid rgb(255, 38, 0);
+    border-color: rgb(255, 38, 0);
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -56,20 +56,20 @@ main {
 
 #tarjeta2 {
     background-color: rgb(255, 219, 152);
-    border: 3px solid rgb(228, 148, 0);
+    border-color: rgb(228, 148, 0);
 }
 
 #tarjeta3 {
     background-color: rgb(95, 190, 136);
-    border: 3px solid rgb(0, 121, 52);
+    border-color: rgb(0, 121, 52);
 }
 
 #tarjeta4 {
     background-color: rgb(158, 211, 255);
-    border: 3px solid rgb(0, 140, 255);
+    border-color: rgb(0, 140, 255);
 }
 
 #tarjeta5 {
     background-color: rgb(212, 165, 255);
-    border: 3px solid rgb(90, 0, 173);
+    border-color:rgb(90, 0, 173);
 }
